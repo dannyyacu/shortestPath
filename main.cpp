@@ -88,8 +88,8 @@ Matrix computeAllPairsShortestPathDynamicProgramming(Graph g){
 
 bool compareResults(Graph g, Matrix a, Matrix b){
 
-  for(int i=0; i<g.size(); i++){
-    for(int j=0; j<g.size(); j++){
+  for(int i=0; i < g.size(); i++){
+    for(int j=0; j < g.size(); j++){
       if(a[i][j] != b[i][j]){
         return false;
       }
